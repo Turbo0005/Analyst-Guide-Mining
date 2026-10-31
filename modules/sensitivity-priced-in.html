@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en-AU" data-theme="dark">
+<head>
+<meta charset="utf-8"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%23b4532a%22/%3E%3Ctext x=%2232%22 y=%2242%22 font-size=%2228%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22Georgia%22%3EO%26amp;E%3C/text%3E%3C/svg%3E"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>M17 Sensitivity &amp; what is priced in · Ore &amp; Equity</title>
+<meta name="description" content="The single most useful skill in this guide: reverse-engineer the commodity price implied by the share price.">
+<script>(function(){var t;try{t=localStorage.getItem('oe.theme');}catch(e){}if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches)t='light';if(t)document.documentElement.setAttribute('data-theme',t);})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>:root{--accent:#2f7d55}</style>
+
+</head>
+<body class="module phase-E" data-root="../">
+<a class="skip" href="#main">Skip to content</a><div class="readbar"><span></span></div>
+<header class="topbar">
+  <a class="brand" href="../index.html"><span class="brand-mark">O<em>&amp;</em>E</span><span class="brand-name">Ore &amp; Equity</span></a>
+  <nav class="mainnav" id="mainnav"><a href="../index.html">Path</a><a href="../library/index.html">Library</a><a href="../tools.html">Tools</a><a href="../flashcards.html">Flashcards</a><a href="../game.html">Game</a><a href="../dossier.html">Hemi dossier</a><a href="../glossary.html">Glossary</a></nav>
+  <div class="topbar-tools">
+    <span class="course-pct" title="Course progress" role="img" aria-label="Course progress"><span class="ring" id="courseRing"></span><span id="coursePct">0%</span></span>
+    <button class="iconbtn" id="themeBtn" aria-label="Light theme" aria-pressed="false">◐</button>
+    <button class="iconbtn menubtn" id="menuBtn" aria-label="Menu">☰</button>
+  </div>
+</header>
+<main id="main">
+
+<section class="mhero" ><div class="mhero-bg" style="background-image:url('../assets/img/copper-cathode.webp')"></div>
+  <div class="mhero-inner">
+    <div class="kicker"><a href="../index.html#phase-E">Phase E · The money</a></div>
+    <h1><span class="mnum">17</span>Sensitivity & what is priced in</h1>
+    <p class="dek">The single most useful skill in this guide: reverse-engineer the commodity price implied by the share price.</p>
+    <div class="meta-row"><span>Module 17 of 28 · ⏱ 4 h</span><span>Prerequisites: <a class="xref mod" href="../modules/dcf-nav.html" style="--pc:#2f7d55">M16 · DCF, NPV & NAV</a></span><span class="donebadge" data-slug="sensitivity-priced-in">Not started</span></div>
+    <nav class="course-strip" aria-label="Course position"><a href="how-mining-stocks-behave.html" data-slug="how-mining-stocks-behave" class="cs" style="--pc:#c99a2e" title="M1 · How mining stocks behave" aria-label="Module 1: How mining stocks behave"></a><a href="lassonde-curve.html" data-slug="lassonde-curve" class="cs" style="--pc:#c99a2e" title="M2 · The Lassonde curve &amp; base rates" aria-label="Module 2: The Lassonde curve &amp; base rates"></a><a href="hemi-story.html" data-slug="hemi-story" class="cs" style="--pc:#c99a2e" title="M3 · The Hemi story: 4.6c to A$2.08" aria-label="Module 3: The Hemi story: 4.6c to A$2.08"></a><a href="geology-essentials.html" data-slug="geology-essentials" class="cs" style="--pc:#c0702f" title="M4 · Geology essentials, just in time" aria-label="Module 4: Geology essentials, just in time"></a><a href="drill-results.html" data-slug="drill-results" class="cs" style="--pc:#c0702f" title="M5 · Drill results: decoding an ASX release" aria-label="Module 5: Drill results: decoding an ASX release"></a><a href="resources-reserves.html" data-slug="resources-reserves" class="cs" style="--pc:#c0702f" title="M6 · Resources, reserves &amp; the codes" aria-label="Module 6: Resources, reserves &amp; the codes"></a><a href="reading-the-numbers.html" data-slug="reading-the-numbers" class="cs" style="--pc:#c0702f" title="M7 · Reading the numbers: quarterlies, 5B &amp; accounts" aria-label="Module 7: Reading the numbers: quarterlies, 5B &amp; accounts"></a><a href="metallurgy-payable-metal.html" data-slug="metallurgy-payable-metal" class="cs" style="--pc:#b4532a" title="M8 · Metallurgy &amp; payable metal" aria-label="Module 8: Metallurgy &amp; payable metal"></a><a href="mining-methods.html" data-slug="mining-methods" class="cs" style="--pc:#b4532a" title="M9 · Mining methods &amp; infrastructure" aria-label="Module 9: Mining methods &amp; infrastructure"></a><a href="costs.html" data-slug="costs" class="cs" style="--pc:#b4532a" title="M10 · Costs: C1, AISC, AIC &amp; capital intensity" aria-label="Module 10: Costs: C1, AISC, AIC &amp; capital intensity"></a><a href="operations-ramp-up.html" data-slug="operations-ramp-up" class="cs" style="--pc:#b4532a" title="M11 · Operations, reconciliation &amp; ramp-up" aria-label="Module 11: Operations, reconciliation &amp; ramp-up"></a><a href="macro-fx.html" data-slug="macro-fx" class="cs" style="--pc:#2a8a8a" title="M12 · Macro for resources investors" aria-label="Module 12: Macro for resources investors"></a><a href="commodity-markets.html" data-slug="commodity-markets" class="cs" style="--pc:#2a8a8a" title="M13 · Commodity markets" aria-label="Module 13: Commodity markets"></a><a href="financing-dilution.html" data-slug="financing-dilution" class="cs" style="--pc:#2f7d55" title="M14 · Financing, dilution &amp; the funding gap" aria-label="Module 14: Financing, dilution &amp; the funding gap"></a><a href="studies.html" data-slug="studies" class="cs" style="--pc:#2f7d55" title="M15 · Studies: read &amp; rebuild" aria-label="Module 15: Studies: read &amp; rebuild"></a><a href="dcf-nav.html" data-slug="dcf-nav" class="cs" style="--pc:#2f7d55" title="M16 · DCF, NPV &amp; NAV" aria-label="Module 16: DCF, NPV &amp; NAV"></a><a href="sensitivity-priced-in.html" data-slug="sensitivity-priced-in" class="cs cur" style="--pc:#2f7d55" title="M17 · Sensitivity &amp; what is priced in" aria-label="Module 17: Sensitivity &amp; what is priced in" aria-current="page"></a><a href="multiples.html" data-slug="multiples" class="cs" style="--pc:#2f7d55" title="M18 · Multiples &amp; relative value" aria-label="Module 18: Multiples &amp; relative value"></a><a href="hedges-royalties-streams.html" data-slug="hedges-royalties-streams" class="cs" style="--pc:#2f7d55" title="M19 · Between the asset &amp; the equity" aria-label="Module 19: Between the asset &amp; the equity"></a><a href="junior-microstructure.html" data-slug="junior-microstructure" class="cs" style="--pc:#2f7d55" title="M20 · How junior stocks actually trade" aria-label="Module 20: How junior stocks actually trade"></a><a href="jurisdiction-tax-esg.html" data-slug="jurisdiction-tax-esg" class="cs" style="--pc:#8a4f86" title="M21 · Jurisdiction, tax, royalties &amp; ESG" aria-label="Module 21: Jurisdiction, tax, royalties &amp; ESG"></a><a href="management-governance.html" data-slug="management-governance" class="cs" style="--pc:#8a4f86" title="M22 · Management, governance &amp; capital allocation" aria-label="Module 22: Management, governance &amp; capital allocation"></a><a href="takeovers.html" data-slug="takeovers" class="cs" style="--pc:#8a4f86" title="M23 · Takeovers &amp; corporate activity" aria-label="Module 23: Takeovers &amp; corporate activity"></a><a href="red-flags.html" data-slug="red-flags" class="cs" style="--pc:#8a4f86" title="M24 · Red flags: the 20-point checklist" aria-label="Module 24: Red flags: the 20-point checklist"></a><a href="case-workshop.html" data-slug="case-workshop" class="cs" style="--pc:#3d6aa3" title="M25 · Case workshop &amp; base rates" aria-label="Module 25: Case workshop &amp; base rates"></a><a href="screen-to-deep-dive.html" data-slug="screen-to-deep-dive" class="cs" style="--pc:#3d6aa3" title="M26 · Screen → tear sheet → deep dive" aria-label="Module 26: Screen → tear sheet → deep dive"></a><a href="portfolio.html" data-slug="portfolio" class="cs" style="--pc:#3d6aa3" title="M27 · Portfolio construction, sizing &amp; selling" aria-label="Module 27: Portfolio construction, sizing &amp; selling"></a><a href="capstone.html" data-slug="capstone" class="cs" style="--pc:#3d6aa3" title="M28 · Capstone: a full investment thesis" aria-label="Module 28: Capstone: a full investment thesis"></a></nav>
+  </div>
+</section>
+<div class="mlayout">
+  <aside class="mside">
+    <div class="side-block toc-block"><div class="side-h">On this page</div><ol class="toc"><li><a href="#the-most-useful-skill-in-this-guide">The most useful skill in this guide</a></li><li><a href="#tornado-charts">Tornado charts</a></li><li><a href="#break-even-price">Break-even price</a></li><li><a href="#the-implied-price-running-the-model-backwards">The implied price: running the model backwards</a></li><li><a href="#nav-at-three-decks">NAV at three decks</a></li><li><a href="#standard-stress-tests">Standard stress tests</a></li><li><a href="#priced-in">"Priced in"</a></li><li><a href="#checkpoint">Checkpoint quiz</a></li></ol></div>
+    <div class="side-block"><div class="side-h">Phase E: The money</div><ul class="phase-mods"><li class="sm" data-slug="financing-dilution" style="--pc:#2f7d55"><a href="financing-dilution.html"><b>14</b> Financing, dilution & the funding gap</a></li><li class="sm" data-slug="studies" style="--pc:#2f7d55"><a href="studies.html"><b>15</b> Studies: read & rebuild</a></li><li class="sm" data-slug="dcf-nav" style="--pc:#2f7d55"><a href="dcf-nav.html"><b>16</b> DCF, NPV & NAV</a></li><li class="sm cur" data-slug="sensitivity-priced-in" style="--pc:#2f7d55"><a href="sensitivity-priced-in.html"><b>17</b> Sensitivity & what is priced in</a></li><li class="sm" data-slug="multiples" style="--pc:#2f7d55"><a href="multiples.html"><b>18</b> Multiples & relative value</a></li><li class="sm" data-slug="hedges-royalties-streams" style="--pc:#2f7d55"><a href="hedges-royalties-streams.html"><b>19</b> Between the asset & the equity</a></li><li class="sm" data-slug="junior-microstructure" style="--pc:#2f7d55"><a href="junior-microstructure.html"><b>20</b> How junior stocks actually trade</a></li></ul></div>
+  </aside>
+  <article class="prose" id="article">
+    <div class="objectives"><div class="obj-h">By the end you can…</div><ul><li>Build and read a tornado chart and identify the dominant value driver</li><li>Solve for the commodity price implied by a share price or takeover value</li><li>Apply standard stress tests (a 12-month delay, a 25% capex overrun)</li><li>Explain "priced in" with a real example</li></ul></div>
+    <div class="timebar"><span>📖 ~5 min reading</span><span>✎ 5 practice tasks</span><span>⏱ 4 h total incl. practice</span></div>
+    <details class="toc-mobile"><summary>On this page</summary><ol><li><a href="#the-most-useful-skill-in-this-guide">The most useful skill in this guide</a></li><li><a href="#tornado-charts">Tornado charts</a></li><li><a href="#break-even-price">Break-even price</a></li><li><a href="#the-implied-price-running-the-model-backwards">The implied price: running the model backwards</a></li><li><a href="#nav-at-three-decks">NAV at three decks</a></li><li><a href="#standard-stress-tests">Standard stress tests</a></li><li><a href="#priced-in">"Priced in"</a></li><li><a href="#checkpoint">Checkpoint quiz</a></li></ol></details>
+    <h2 id="the-most-useful-skill-in-this-guide">The most useful skill in this guide</h2>
+<p class="lede">Anyone can build a <abbr class="gl" data-term="DCF">DCF</abbr> at a chosen price and declare a stock "cheap". The professional move is to run it backwards: <strong>what commodity price is the market already paying for?</strong> If the implied price is well below your view (and the futures curve), the stock may be cheap. If it is above spot, the market is already pricing in optimism.</p>
+<h2 id="tornado-charts">Tornado charts</h2>
+<p>A <abbr class="gl" data-term="Tornado chart">tornado chart</abbr> flexes each input up and down by a set amount and ranks the effect on NPV. For almost every mine, the order is:</p>
+<ol>
+<li><strong>Commodity price</strong> (and FX, for Australian producers)</li>
+<li><strong>Grade and <abbr class="gl" data-term="Recovery">recovery</abbr></strong> (they act like price, since revenue ∝ <abbr class="gl" data-term="Grade">grade</abbr> × recovery × price)</li>
+<li><strong>Operating cost</strong></li>
+<li><strong>Capex</strong> (bigger for developers, smaller for producers)</li>
+<li><strong>Discount rate and delay</strong></li>
+</ol>
+<div class="widget" data-widget="npv"></div>
+
+<div class="callout callout-key">
+<div class="callout-head"><span class="callout-label">◆ Key idea</span><span class="callout-title">Read the asymmetry</span></div>
+<p>Price, grade and recovery are <em>multiplicative</em> on revenue, while costs subtract. When the margin is thin, revenue sensitivities explode (<abbr class="gl" data-term="Operating leverage">operating leverage</abbr> again). When the margin is fat, as in Hemi at spot, capex and delay become relatively less important, and price dominates.</p>
+</div>
+<h2 id="break-even-price">Break-even price</h2>
+<p>The <strong><abbr class="gl" data-term="Break-even price">break-even price</abbr></strong> is the commodity price at which NPV = 0. For the Hemi <abbr class="gl" data-term="DFS">DFS</abbr> reconstruction, post-tax NPV5 = 0 at about <strong>A$1,650/oz</strong> (model output). At ≈A$5,750 spot <span class="asof">as of 29 Oct 2026</span>, that is a very wide safety margin, before cost inflation.</p>
+<h2 id="the-implied-price-running-the-model-backwards">The implied price: running the model backwards</h2>
+<div class="callout callout-formula">
+<div class="callout-head"><span class="callout-label">∑ Key formula</span><span class="callout-title">Implied price</span></div>
+<p>Find price P* such that *<em><abbr class="gl" data-term="NPV">NPV</abbr>(P<em>) × <abbr class="gl" data-term="Risk factor">risk factor</abbr> + other NAV items = market value (or bid value)</em></em></p>
+<p>Then compare P* with spot, consensus and the futures curve.</p>
+</div>
+<div class="callout callout-example">
+<div class="callout-head"><span class="callout-label">◎ Worked example</span><span class="callout-title">Worked: what gold price did NST pay for?</span></div>
+<p>NST paid about <strong>A$5bn</strong> for De Grey (completed 5 May 2025) <span class="tag v" title="Verified by web search on or before 29 Oct 2026">✔</span>. Ignore De Grey's cash and other assets, and assume the price bought Hemi's DFS case outright (risk factor 1.0):</p>
+<ul>
+<li>With DFS costs and capex, the model gives post-tax NPV5 = A$5bn at about <strong>A$3,440/oz</strong>.</li>
+<li>With <abbr class="gl" data-term="AISC">AISC</abbr> +30% and capex +25%, it gives about <strong>A$3,920/oz</strong>.</li>
+</ul>
+<p>Compare that with the A$ gold price on the bid date (look up the Perth Mint history for Dec 2024), and with today's ≈A$5,750. NST paid in its own shares, which also move with gold. The implied price sits <strong>far below today's spot</strong>, so NST was not paying for spot gold. It was paying for a conservative gold price plus optionality on the resource beyond the 6.0 <abbr class="gl" data-term="Moz">Moz</abbr> reserve, which left the subsequent gold rally as upside for NST holders.</p>
+</div>
+<div class="callout callout-exercise">
+<div class="callout-head"><span class="callout-label">✎ Your turn</span><span class="callout-title">Independent</span></div>
+<p>Find the implied price if NST had applied a 0.8 risk factor to Hemi (i.e. it paid A$5bn for 0.8 × NPV). <em>(Hint: you need NPV = A$6.25bn. Use the slider until post-tax NPV ≈ 6,250.)</em></p>
+</div>
+<h2 id="nav-at-three-decks">NAV at three decks</h2>
+<p>Always show <abbr class="gl" data-term="NAV">NAV</abbr> at three price decks:</p>
+<ul>
+<li><strong>Spot</strong> (what the market sees today)</li>
+<li><strong>Consensus</strong> (what brokers assume, usually a declining long-term curve)</li>
+<li><strong>Long-term / conservative</strong> (a mid-cycle price)</li>
+</ul>
+<p>If a stock only looks cheap at spot, it is a leveraged bet on spot persisting.</p>
+<h2 id="standard-stress-tests">Standard stress tests</h2>
+<div class="callout callout-key">
+<div class="callout-head"><span class="callout-label">◆ Key idea</span><span class="callout-title">Run these every time</span></div>
+<ol>
+<li><strong>12-month delay</strong> to first production (permitting, funding, construction).</li>
+<li><strong>25% capex overrun.</strong></li>
+<li><strong>AISC +20%</strong> (inflation, lower grade).</li>
+<li><strong>Price −20%</strong> against your base deck.</li>
+</ol>
+<p>At the DFS deck, Hemi's model loses about 6% of post-tax NPV from a one-year delay (A$2.93bn → A$2.75bn) and about 8% from a 25% overrun (→ A$2.69bn). Both are small next to a 20% price move.</p>
+</div>
+<h2 id="priced-in">"Priced in"</h2>
+<div class="callout callout-case">
+<div class="callout-head"><span class="callout-label">▣ Case study</span><span class="callout-title">First Quantum and Cobre Panamá <span class="tag v" title="Verified by web search on or before 29 Oct 2026">✔</span></span></div>
+<p>On <strong>28 Nov 2023</strong>, Panama's Supreme Court declared Cobre Panamá's contract unconstitutional, the worst-case outcome. First Quantum fell as much as <strong>8.3% intraday</strong> and <strong>pared most of the loss</strong>. Why so small? More than <strong>C$10bn</strong> of value had already been wiped out during weeks of protests. The market had already priced the bad scenario. The ruling only confirmed it.</p>
+</div>
+<div class="widget" data-widget="round" data-round="7"></div>
+
+<div class="callout callout-dossier">
+<div class="callout-head"><span class="callout-label">✦ Hemi dossier</span><span class="callout-title">Page 15: What was priced into DEG?</span></div>
+<ul>
+<li>Pre-bid close: A$1.52 (29 Nov 2024). Offer: A$2.08 (37.1% premium). Closing price on bid day: A$1.97.</li>
+<li>Implied gold price in the ≈A$5bn deal value: ≈A$3,400–3,900/oz on DFS-to-stressed costs (model).</li>
+<li>Before the bid, DEG's market value was lower still, so it implied an even lower gold price or a big funding and execution discount. That gap was the opportunity a bidder could capture.</li>
+<li>Takeaway: the market was pricing a <abbr class="gl" data-term="Funding gap">funding gap</abbr> and ramp-up risk, not the geology.</li>
+</ul>
+</div>
+<div class="callout callout-redflag">
+<div class="callout-head"><span class="callout-label">⚑ Red flag</span><span class="callout-title">Sensitivity red flags</span></div>
+<ul>
+<li>Studies showing only upside sensitivities</li>
+<li>Tornado charts with asymmetric ranges chosen to flatter</li>
+<li>Valuations quoted only at spot</li>
+<li>No delay scenario for an unpermitted project</li>
+</ul>
+</div>
+
+
+<div class="minideck" data-slug="sensitivity-priced-in"></div>
+    <section class="tasks" data-slug="sensitivity-priced-in"><h3>Practice tasks</h3><label><input type="checkbox" data-i="0"><span>Work the 2 interactives on this page (predict before you move a slider)</span><span class="t-h">20 min</span></label><label><input type="checkbox" data-i="1"><span>Do the 1 “Your turn” exercise on paper before checking</span><span class="t-h">15 min</span></label><label><input type="checkbox" data-i="2"><span>Write your own Hemi dossier page, then compare it with the analyst version</span><span class="t-h">15 min</span></label><label><input type="checkbox" data-i="3"><span>Take the checkpoint quiz (80% completes the module)</span><span class="t-h">10 min</span></label><label><input type="checkbox" data-i="4"><span>Review this module’s 7 flashcards over the next few days</span><span class="t-h">10 min</span></label></section>
+    <h2 id="checkpoint">Checkpoint quiz</h2>
+    <p class="muted">Score 80% or more to mark this module mastered. Your best score is saved in this browser.</p>
+    <div class="quiz-slot"><div class="quiz" data-slug="sensitivity-priced-in" data-quiz='[{&quot;q&quot;: &quot;What is usually the largest bar on a mine&#x27;s tornado chart?&quot;, &quot;o&quot;: [&quot;Commodity price&quot;, &quot;Discount rate&quot;, &quot;Corporate costs&quot;, &quot;Closure cost&quot;], &quot;a&quot;: 0, &quot;e&quot;: &quot;Grade and recovery act similarly, since revenue \u221d grade \u00d7 recovery \u00d7 price.&quot;}, {&quot;q&quot;: &quot;What does the implied price answer?&quot;, &quot;o&quot;: [&quot;What the CEO thinks the price will be&quot;, &quot;What commodity price the current market value (or bid) is paying for&quot;, &quot;The break-even cost&quot;, &quot;The royalty rate&quot;], &quot;a&quot;: 1, &quot;e&quot;: &quot;Compare it with spot, consensus and futures.&quot;}, {&quot;q&quot;: &quot;Why did First Quantum fall only ~8% intraday on the 28 Nov 2023 ruling?&quot;, &quot;o&quot;: [&quot;The ruling was positive&quot;, &quot;More than C$10bn had already been lost during the protests; the outcome was largely priced in&quot;, &quot;Markets were closed&quot;, &quot;Copper rallied 50%&quot;], &quot;a&quot;: 1, &quot;e&quot;: &quot;\&quot;Priced in\&quot; in action.&quot;}, {&quot;q&quot;: &quot;Which are the standard stress tests?&quot;, &quot;o&quot;: [&quot;A 12-month delay, a 25% capex overrun, AISC +20%, price \u221220%&quot;, &quot;Only a price +20% test&quot;, &quot;A discount rate of 0%&quot;, &quot;None&quot;], &quot;a&quot;: 0, &quot;e&quot;: &quot;Run them on every valuation.&quot;}, {&quot;q&quot;: &quot;What is the break-even price of the Hemi DFS model (post-tax NPV5 = 0)?&quot;, &quot;o&quot;: [&quot;\u2248A$700/oz&quot;, &quot;\u2248A$1,650/oz&quot;, &quot;\u2248A$2,700/oz&quot;, &quot;\u2248A$4,000/oz&quot;], &quot;a&quot;: 1, &quot;e&quot;: &quot;That is a very wide margin against spot, before cost inflation.&quot;}]'></div></div>
+    <div class="complete-row"><button class="btn ghost markdone" data-slug="sensitivity-priced-in">Mark complete without the quiz</button><a class="btn ghost" href="../flashcards.html?m=sensitivity-priced-in">Review this module's flashcards</a></div>
+    <nav class="prevnext"><a class="pn prev" href="dcf-nav.html"><span>← Module 16</span>DCF, NPV & NAV</a><a class="pn next" href="multiples.html" style="--pc:#2f7d55"><span>Module 18 →</span>Multiples & relative value</a></nav>
+  </article>
+</div>
+</main>
+<footer class="sitefoot">
+  <div class="foot-inner">
+    <div><span class="brand-mark small">O<em>&amp;</em>E</span> <strong>Ore &amp; Equity</strong>: a field guide from novice to expert resources analyst. ASX-first, global examples.</div>
+    <div class="foot-cols"><div><b>Learn</b><a href="../index.html#path">Learning path</a><a href="../modules/how-mining-stocks-behave.html">Start Module 1</a><a href="../modules/capstone.html">Capstone</a></div><div><b>Practise</b><a href="../tools.html">Interactive tools</a><a href="../flashcards.html">Flashcards</a><a href="../game.html">What happened next?</a><a href="../dossier.html">Hemi dossier</a></div><div><b>Reference</b><a href="../library/index.html">Library</a><a href="../library/deposits.html">Deposit types</a><a href="../glossary.html">Glossary</a><a href="../sources.html">Sources</a></div></div>
+    <div class="foot-meta">Prices and facts dated; fast-moving numbers are stamped <em>as of 29 Oct 2026</em>. <span class="tag v">✔ verified</span> = checked by web search on or before 29 Oct 2026; <span class="tag u">unverified</span> = rule of thumb or still to verify. Educational only, not financial advice. <a href="../sources.html">Sources &amp; corrections</a> · <a href="../library/image-credits.html">Image credits</a></div>
+  </div>
+</footer>
+<div class="gl-tip" id="glTip" role="tooltip"></div>
+<script defer src="../assets/vendor/chart.umd.min.js"></script>
+<script defer src="../assets/js/data.js"></script>
+<script defer src="../assets/js/app.js"></script>
+<script defer src="../assets/js/widgets.js"></script>
+
+</body></html>
